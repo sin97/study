@@ -1,0 +1,13 @@
+server:
+  port: 9000
+spring:
+  profiles:
+    include: mysql,mp,netty
+i:
+  age: 24
+  name: 小李
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

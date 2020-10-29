@@ -1,0 +1,6 @@
+## 配置quartz 持久化
+spring:
+  quartz:
+    job-store-type: jdbc
+    jdbc:
+      initialize-schema: never
